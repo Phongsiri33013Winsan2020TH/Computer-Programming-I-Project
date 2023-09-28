@@ -12,12 +12,14 @@ def idCheck(inputID):
         result = result%11
         result = 11-result
         outputID = result
-        if outputID > 9: # เอาหลักหน่วยออก
+        if outputID == 11: # เอาเฉพาะหลักหน่วย
             outputID = 1
+        elif outputID == 10: # เอาเฉพาะหลักหน่วย
+            outputID = 0
         outputID = bool(int(inputID[12]) == outputID)
         return outputID
 
-idExample = "ลองเลขบัตรที่นี้"
+idExample = "1122607144750"
 test = idCheck(idExample)
 if test != None:
   print(test)
