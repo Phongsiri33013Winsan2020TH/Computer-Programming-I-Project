@@ -42,9 +42,13 @@ def scoreCheck():
     else:
         output.config(text="Invalid Student ID")
 
+def none():
+    output.config(text=f"The button isn't implemented yet")
+
 main = Tk()
 
 studentID = StringVar()
+std_score = IntVar()
 
 main.minsize(750, 250)
 main.title("Student Scoring System")
@@ -54,7 +58,13 @@ output = Label(main, text = "\n", font = ("TH SarabunPSK", "18"))
 output.grid(row=2,column=1,columnspan=2)
 Label(main, text = "Please enter student ID", font = ("TH SarabunPSK", "18", "bold")).grid(row=3,column=0)
 sID = Entry(main, textvariable=studentID)
-sID.grid(row=3,column=1)
+sID.grid(row=4,column=1)
 sID.focus()
-Button(main, text="Check Score", font = ("TH SarabunPSK", "18"), fg = f"#000000", bg = f"#FFD30B", command = scoreCheck).grid(row=4,column=1)
+Label(main, text = "Score to add/minus", font = ("TH SarabunPSK", "18", "bold")).grid(row=3,column=0)
+sc = Entry(main, textvariable=std_score)
+sc.grid(row=4,column=1)
+Button(main, text="Add Score", font = ("TH SarabunPSK", "18"), fg = f"#FFFFFF", bg = f"#FD5033", command = none).grid(row=5,column=0)
+Button(main, text="Check Score", font = ("TH SarabunPSK", "18"), fg = f"#000000", bg = f"#FFD30B", command = scoreCheck).grid(row=5,column=1)
+Button(main, text="Remove Score", font = ("TH SarabunPSK", "18"), fg = f"#FFFFFF", bg = f"#0F8436", command = none).grid(row=5,column=2)
+Button(main, text="×", font = ("TH SarabunPSK", "20", "bold"), fg = f"#FFFFFF", bg = f"#830000", command = main.destroy).grid(row=6,column=2)
 main.mainloop()
