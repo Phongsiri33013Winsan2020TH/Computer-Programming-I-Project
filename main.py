@@ -40,10 +40,10 @@ def scoreCheck():
         name = student[inputID]["Name"]
         output.config(text=f"{inputID} {name}\nHave score of {score}")
     else:
-        output.config(text="Invalid Student ID")
+        output.config(text="Invalid Student ID\n")
 
 def none():
-    output.config(text=f"The button isn't implemented yet")
+    output.config(text=f"The button isn't implemented yet\n")
 
 main = Tk()
 
