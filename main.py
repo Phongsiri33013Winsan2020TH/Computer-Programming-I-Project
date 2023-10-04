@@ -1,6 +1,6 @@
 # Lang Config
 id_error = "National ID is invalid"
-univ_name = "Tunyathep University"
+univ_name = "Nakhon Phitthaya School"
 foregroundColor = "#FFFFFF"
 backgroundColor = "#FD6E03"
 
@@ -51,9 +51,9 @@ studentID = StringVar()
 std_score = IntVar()
 
 main.minsize(750, 250)
-main.title("Student Scoring System")
+main.title("Student Behavior Scoring System")
 Label(main, text = f"{univ_name}", font = ("TH SarabunPSK", "36", "bold"), fg = f"{foregroundColor}", bg = f"{backgroundColor}").grid(row=0,column=0,columnspan=3)
-Label(main, text = f"Student Scoring System", font = ("TH SarabunPSK", "24"), fg = f"#000000", bg = f"#FFC89F").grid(row=1,column=0,columnspan=3)
+Label(main, text = f"Student Behavior Scoring System", font = ("TH SarabunPSK", "24"), fg = f"#000000", bg = f"#FFC89F").grid(row=1,column=0,columnspan=3)
 output = Label(main, text = "\n", font = ("TH SarabunPSK", "18"))
 output.grid(row=2,column=0,columnspan=3)
 Label(main, text = "Please enter student ID", font = ("TH SarabunPSK", "18", "bold")).grid(row=3,column=0)
@@ -68,3 +68,5 @@ Button(main, text="Check Score", font = ("TH SarabunPSK", "18"), fg = f"#000000"
 Button(main, text="Remove Score", font = ("TH SarabunPSK", "18"), fg = f"#FFFFFF", bg = f"#0F8436", command = none).grid(row=5,column=2)
 Button(main, text="×", font = ("TH SarabunPSK", "20", "bold"), fg = f"#FFFFFF", bg = f"#830000", command = main.destroy).grid(row=6,column=2)
 main.mainloop()
+
+# try .. except KeyError
