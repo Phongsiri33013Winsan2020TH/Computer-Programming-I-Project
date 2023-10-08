@@ -1,12 +1,118 @@
-at 2023-10-08 22:58:30.436063 > 1602955500189 Tomana Nirakorn has been add/deduct score of -2, score left of 98
-at 2023-10-08 22:58:32.622061 > 1602955500189 Tomana Nirakorn has been add/deduct score of -5, score left of 93
-at 2023-10-08 22:58:42.890036 > 4128901740623 Chaya Reongsamai has been add/deduct score of 10, score left of 110
-at 2023-10-08 22:58:54.999019 > 3688552057611 Thitapa Jarastham has been add/deduct score of -20, score left of 80
-at 2023-10-08 22:58:55.363006 > 3688552057611 Thitapa Jarastham has been add/deduct score of -20, score left of 60
-at 2023-10-08 22:58:55.822229 > 3688552057611 Thitapa Jarastham has been add/deduct score of -20, score left of 40
-at 2023-10-08 22:59:43.381639 > 3221743801869 Surawat Suwannachoti has been add/deduct score of -2, score left of 98
-at 2023-10-08 22:59:49.058869 > 3221743801869 Surawat Suwannachoti has been add/deduct score of -2, score left of 96
-at 2023-10-08 23:00:04.916831 > 3221743801869 Surawat Suwannachoti has been add/deduct score of -2, score left of 94
-at 2023-10-08 23:00:11.268873 > 3221743801869 Surawat Suwannachoti has been add/deduct score of -2, score left of 92
-at 2023-10-08 23:00:12.156427 > 3221743801869 Surawat Suwannachoti has been add/deduct score of -2, score left of 90
-at 2023-10-08 23:00:12.307813 > 3221743801869 Surawat Suwannachoti has been add/deduct score of -2, score left of 88
+
+at 2023-10-08 23:14:47.847210 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 98
+at 2023-10-08 23:14:48.746815 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 96
+at 2023-10-08 23:14:49.058163 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 94
+at 2023-10-08 23:14:50.538249 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score กิริยามารยาทไม่เหมาะสม of -5, score left of 89
+at 2023-10-08 23:14:50.697731 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score กิริยามารยาทไม่เหมาะสม of -5, score left of 84
+at 2023-10-08 23:14:52.084056 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่ทำการบ้าน of -2, score left of 82
+at 2023-10-08 23:14:53.587670 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 87
+at 2023-10-08 23:14:53.735728 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 92
+at 2023-10-08 23:14:54.199731 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 97
+at 2023-10-08 23:14:54.607761 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 102
+at 2023-10-08 23:14:59.572956 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ช่วยเหลือครู of 5, score left of 105
+at 2023-10-08 23:14:59.611597 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ช่วยเหลือครู of 5, score left of 110
+at 2023-10-08 23:15:00.912846 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 108
+at 2023-10-08 23:15:01.054624 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 106
+at 2023-10-08 23:15:02.650622 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score กิริยามารยาทไม่เหมาะสม of -5, score left of 101
+at 2023-10-08 23:15:02.855459 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score กิริยามารยาทไม่เหมาะสม of -5, score left of 96
+at 2023-10-08 23:15:03.004178 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score กิริยามารยาทไม่เหมาะสม of -5, score left of 91
+at 2023-10-08 23:15:04.305616 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score รับประทานอาหารในห้องเรียน of -5, score left of 86
+at 2023-10-08 23:15:06.439665 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 84
+at 2023-10-08 23:15:06.786608 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 82
+at 2023-10-08 23:15:06.998337 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 80
+at 2023-10-08 23:15:22.317571 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 78
+at 2023-10-08 23:15:22.449814 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 76
+at 2023-10-08 23:15:22.601571 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 74
+at 2023-10-08 23:15:22.822146 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 72
+at 2023-10-08 23:15:22.945815 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 70
+at 2023-10-08 23:15:22.993861 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 68
+at 2023-10-08 23:15:23.163017 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 66
+at 2023-10-08 23:15:23.338574 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 64
+at 2023-10-08 23:15:23.501568 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 62
+at 2023-10-08 23:15:23.685566 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 60
+at 2023-10-08 23:15:23.802768 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 58
+at 2023-10-08 23:15:23.860786 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 56
+at 2023-10-08 23:15:24.058172 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 54
+at 2023-10-08 23:15:24.816572 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 52
+at 2023-10-08 23:15:24.983784 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 50
+at 2023-10-08 23:15:25.174564 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 48
+at 2023-10-08 23:15:25.319609 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 46
+at 2023-10-08 23:15:25.378989 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 44
+at 2023-10-08 23:15:25.550631 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 42
+at 2023-10-08 23:15:25.714682 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 40
+at 2023-10-08 23:15:25.875561 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 38
+at 2023-10-08 23:15:26.055481 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 36
+at 2023-10-08 23:15:26.372339 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 34
+at 2023-10-08 23:15:26.532885 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 32
+at 2023-10-08 23:15:26.684110 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 30
+at 2023-10-08 23:15:26.844881 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 28
+at 2023-10-08 23:15:27.258559 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 26
+at 2023-10-08 23:15:27.428205 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 24
+at 2023-10-08 23:15:27.631300 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 22
+at 2023-10-08 23:15:27.787799 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 20
+at 2023-10-08 23:15:27.954573 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 18
+at 2023-10-08 23:15:30.138734 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 16
+at 2023-10-08 23:15:30.308728 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 14
+at 2023-10-08 23:15:30.488550 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 12
+at 2023-10-08 23:15:30.654728 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 10
+at 2023-10-08 23:15:31.002080 > 6604062636321 ธัญเทพ อนันต์ธนาพงษ์ has been add/deduct score ไม่ทำการบ้าน of -2, score left of 8
+at 2023-10-08 23:15:41.599524 > 5579224408661 Nattayod Surasakudom has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 95
+at 2023-10-08 23:15:41.754786 > 5579224408661 Nattayod Surasakudom has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 90
+at 2023-10-08 23:15:41.889523 > 5579224408661 Nattayod Surasakudom has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 85
+at 2023-10-08 23:15:42.035661 > 5579224408661 Nattayod Surasakudom has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 80
+at 2023-10-08 23:15:42.174522 > 5579224408661 Nattayod Surasakudom has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 75
+at 2023-10-08 23:15:42.319836 > 5579224408661 Nattayod Surasakudom has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 70
+at 2023-10-08 23:15:42.458759 > 5579224408661 Nattayod Surasakudom has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 65
+at 2023-10-08 23:15:42.598520 > 5579224408661 Nattayod Surasakudom has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 60
+at 2023-10-08 23:15:43.766715 > 5579224408661 Nattayod Surasakudom has been add/deduct score โดดเรียน of -20, score left of 40
+at 2023-10-08 23:15:48.855507 > 5382546184944 Thitapa Natapiwat has been add/deduct score โดดเรียน of -20, score left of 80
+at 2023-10-08 23:15:49.005230 > 5382546184944 Thitapa Natapiwat has been add/deduct score โดดเรียน of -20, score left of 60
+at 2023-10-08 23:15:49.171550 > 5382546184944 Thitapa Natapiwat has been add/deduct score โดดเรียน of -20, score left of 40
+at 2023-10-08 23:15:53.056437 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 50
+at 2023-10-08 23:15:53.227518 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 60
+at 2023-10-08 23:15:53.366494 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 70
+at 2023-10-08 23:15:53.527526 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 80
+at 2023-10-08 23:15:53.679522 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 90
+at 2023-10-08 23:15:53.848370 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 100
+at 2023-10-08 23:15:53.995002 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 110
+at 2023-10-08 23:15:54.185477 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 120
+at 2023-10-08 23:15:54.375839 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 130
+at 2023-10-08 23:15:54.670492 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 140
+at 2023-10-08 23:15:54.816019 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 150
+at 2023-10-08 23:15:55.001491 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 160
+at 2023-10-08 23:15:55.196759 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 170
+at 2023-10-08 23:15:55.365972 > 5382546184944 Thitapa Natapiwat has been add/deduct score ทำความดีระดับประเทศ of 10, score left of 180
+at 2023-10-08 23:16:03.006471 > 4128901740623 Chaya Reongsamai has been add/deduct score กิริยามารยาทไม่เหมาะสม of -5, score left of 95
+at 2023-10-08 23:16:03.160471 > 4128901740623 Chaya Reongsamai has been add/deduct score กิริยามารยาทไม่เหมาะสม of -5, score left of 90
+at 2023-10-08 23:16:03.316470 > 4128901740623 Chaya Reongsamai has been add/deduct score กิริยามารยาทไม่เหมาะสม of -5, score left of 85
+at 2023-10-08 23:16:03.484487 > 4128901740623 Chaya Reongsamai has been add/deduct score กิริยามารยาทไม่เหมาะสม of -5, score left of 80
+at 2023-10-08 23:16:21.138409 > 3688552057611 Thitapa Jarastham has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 98
+at 2023-10-08 23:16:21.289296 > 3688552057611 Thitapa Jarastham has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 96
+at 2023-10-08 23:16:21.451365 > 3688552057611 Thitapa Jarastham has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 94
+at 2023-10-08 23:16:21.607424 > 3688552057611 Thitapa Jarastham has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 92
+at 2023-10-08 23:16:23.476372 > 3688552057611 Thitapa Jarastham has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 87
+at 2023-10-08 23:16:23.684877 > 3688552057611 Thitapa Jarastham has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 82
+at 2023-10-08 23:20:55.362442 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่ทำการบ้าน of -2, score left of 100
+at 2023-10-08 23:20:59.363740 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score โดดเรียน of -20, score left of 80
+at 2023-10-08 23:21:01.215805 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 85
+at 2023-10-08 23:21:02.062758 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 90
+at 2023-10-08 23:21:02.199526 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 95
+at 2023-10-08 23:21:02.354732 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 100
+at 2023-10-08 23:21:02.479903 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 105
+at 2023-10-08 23:21:02.654126 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 110
+at 2023-10-08 23:21:02.783601 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 115
+at 2023-10-08 23:21:02.958600 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 120
+at 2023-10-08 23:21:05.508770 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่เข้าแถวเคารพธงชาติ of -10, score left of 110
+at 2023-10-08 23:21:09.074514 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 108
+at 2023-10-08 23:21:11.410193 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score วิ่งเล่นบนทางเดิน of -5, score left of 103
+at 2023-10-08 23:21:12.999710 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่ส่งใบลาป่วย/กิจธุระ of -3, score left of 100
+at 2023-10-08 23:21:16.310697 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่ทำการบ้าน of -2, score left of 98
+at 2023-10-08 23:21:18.831698 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่ส่งใบลาป่วย/กิจธุระ of -3, score left of 95
+at 2023-10-08 23:21:21.428399 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่เข้าแถวเคารพธงชาติ of -10, score left of 85
+at 2023-10-08 23:21:24.430033 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 90
+at 2023-10-08 23:21:24.818010 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 95
+at 2023-10-08 23:21:24.994593 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 100
+at 2023-10-08 23:21:25.174679 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 105
+at 2023-10-08 23:21:25.370039 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 110
+at 2023-10-08 23:21:25.530687 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ช่วยเหลือครู of 5, score left of 115
+at 2023-10-08 23:21:26.691697 > 6604062636453 พงศ์ศิริ เลิศพงษ์ไทย has been add/deduct score ไม่ตั้งใจเรียน of -2, score left of 113

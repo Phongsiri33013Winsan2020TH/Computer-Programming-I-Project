@@ -15,6 +15,7 @@ radio_score = ([1, "ไม่ทำการบ้าน", "-2"],
                [9, "ช่วยเหลือครู", "5"],
                [10, "ทำความดีระดับประเทศ", "10"])
 
+
 # ID Card Validation Check
 def id_validate(entry):
     i = 0
@@ -25,14 +26,15 @@ def id_validate(entry):
         print("Invalid ID")
     else:
         while i < 12:
-            result = result+(int(entry[i])*k)
+            result = result + (int(entry[i]) * k)
             k -= 1
             i += 1
-        result = result%11
-        result = 11-result
-        result = result%10
+        result = result % 11
+        result = 11 - result
+        result = result % 10
         result = bool(int(entry[12]) == result)
         return result
+
 
 # Loop student.csv to check ID score
 def score_check():
@@ -51,8 +53,10 @@ def score_check():
                 none = False
                 if int(student_score[3]) > 50:
                     status = "ปกติ"
-                else:
+                elif int(student_score[3]) > 10:
                     status = "ติดทัณฑ์บน"
+                else:
+                    status = "ไล่ออก"
                 student_name_display.config(text=f"{student_score[2]}")
                 output_sum.config(text=f"คะแนนคงเหลือ {student_score[3]}")
                 output_latest.config(text=f"สถานะ: {status}")
@@ -61,13 +65,15 @@ def score_check():
     else:
         student_name_display.config(text="รหัสนักเรียนไม่ถูกต้อง")
 
+
 def score_edit():
     entry_id = student_id_input.get()
     valid_id = id_validate(entry_id)
     score_index = score_select.get()
-    score = radio_score[score_index-1][2]
+    score = radio_score[score_index - 1][2]
+    score_name = radio_score[score_index - 1][1]
     score = int(score)
-    if valid_id == True:
+    if valid_id:
         if score_index == 0:
             student_name_display.config(text=f"กรุณาเลือกประเภทคะแนน")
             return
@@ -99,11 +105,13 @@ def score_edit():
                 student_name_display.config(text="เกิดข้อผิดพลาดในการบันทึกคะแนน")
             current = datetime.datetime.now()
             with open("log.txt", "a", encoding="utf-8") as log:
-                log.write(f"at {current} > {student_score[1]} {student_score[2]} has been add/deduct score of {score}, score left of {done}\n")
+                log.write(
+                    f"\nat {current} > {student_score[1]} {student_score[2]} has been add/deduct score {score_name} of {score}, score left of {done}")
         if none:
             student_name_display.config(text=f"ไม่พบรหัสนักเรียนในระบบ")
     else:
         student_name_display.config(text="รหัสนักเรียนไม่ถูกต้อง")
+
 
 # Main Menu Definition
 main = Tk()
@@ -114,35 +122,39 @@ score_select = IntVar()
 
 # GUI Main Screen
 main.title("ระบบจัดการคะแนนความประพฤตินักเรียน")
-Label(main, text = "ระบบคะแนนความประพฤตินักเรียน\nโรงเรียนศึกษาพิทยาคมกันยายน", font = ("TH SarabunPSK", "30", "bold"), fg = f"#000000", bg = f"#ccfff0", width = 65).grid(row=0,column=0,columnspan=3)
+Label(main, text="ระบบคะแนนความประพฤตินักเรียน\nโรงเรียนศึกษาพิทยาคมกันยายน", font=("TH SarabunPSK", "30", "bold"),
+      fg=f"#000000", bg=f"#ccfff0", width=65).grid(row=0, column=0, columnspan=3)
 
 # Student ID Input / Name Display
-student_name_display = Label(main, text = "รหัสนักเรียน 13 หลัก", font = ("TH SarabunPSK", "20", "bold"), width=20)
-student_name_display.grid(row=1,column=0)
+student_name_display = Label(main, text="รหัสนักเรียน 13 หลัก", font=("TH SarabunPSK", "20", "bold"), width=20)
+student_name_display.grid(row=1, column=0)
 student_id_input = Entry(main, textvariable=student_id, width=40)
-student_id_input.grid(row=1,column=1)
+student_id_input.grid(row=1, column=1)
 student_id_input.focus()
 
 # Add or Minus Score Title
-Label(main, text = "กรุณาเลือกคะแนน\nที่จะหัก/เพิ่มจากตรงนี้", font = ("TH SarabunPSK", "20", "bold")).grid(row=1,column=2)
+Label(main, text="กรุณาเลือกคะแนน\nที่จะหัก/เพิ่มจากตรงนี้", font=("TH SarabunPSK", "20", "bold")).grid(row=1, column=2)
 
 # Display Score
-output_sum = Label(main, text = "", font = ("TH SarabunPSK", "18"))
-output_sum.grid(row=2,column=0)
+output_sum = Label(main, text="", font=("TH SarabunPSK", "18"))
+output_sum.grid(row=2, column=0)
 
 # Display Latest Menu
-output_latest = Label(main, text = "", font = ("TH SarabunPSK", "18"))
-output_latest.grid(row=3,column=0)
+output_latest = Label(main, text="", font=("TH SarabunPSK", "18"))
+output_latest.grid(row=3, column=0)
 
 # Action Buttons
-Button(main, text="ตรวจสอบคะแนนและสภาพ", font = ("TH SarabunPSK", "18"), fg = f"#FFFFFF", bg = f"#126D42", command = score_check, width = 20, height=1).grid(row=2,column=1)
-Button(main, text="เพิ่ม/หักคะแนนนักเรียน", font = ("TH SarabunPSK", "18"), fg = f"#FFFFFF", bg = f"#8F100C", command = score_edit, width = 20, height=1).grid(row=3,column=1)
+Button(main, text="ตรวจสอบคะแนนและสภาพ", font=("TH SarabunPSK", "18"), fg=f"#FFFFFF", bg=f"#126D42",
+       command=score_check, width=20, height=1).grid(row=2, column=1)
+Button(main, text="เพิ่ม/หักคะแนนนักเรียน", font=("TH SarabunPSK", "18"), fg=f"#FFFFFF", bg=f"#8F100C",
+       command=score_edit, width=20, height=1).grid(row=3, column=1)
 
 # Radio Button Score List
 row_radio = 2
 for score_list, score_label, score_todo in radio_score:
-    score_type = Radiobutton(main, text=score_label, variable=score_select, value=score_list, font = ("TH SarabunPSK", "18"),height=1,anchor=W)
-    score_type.grid(row=row_radio,column=2)
+    score_type = Radiobutton(main, text=score_label, variable=score_select, value=score_list,
+                             font=("TH SarabunPSK", "18"), height=1, anchor=W)
+    score_type.grid(row=row_radio, column=2)
     row_radio += 1
 
 # Open Main Menu
