@@ -57,12 +57,12 @@ radio_score = ([1, "ไม่ทำการบ้าน", -2],
 
 # GUI Main Screen
 main.title("ระบบจัดการคะแนนความประพฤตินักเรียน")
-Label(main, text = "ระบบคะแนนความประพฤตินักเรียน\nโรงเรียนศึกษาพิทยาคมกันยายน", font = ("TH SarabunPSK", "30", "bold"), fg = f"#000000", bg = f"#ccfff0", width = 50).grid(row=0,column=0,columnspan=4)
+Label(main, text = "ระบบคะแนนความประพฤตินักเรียน\nโรงเรียนศึกษาพิทยาคมกันยายน", font = ("TH SarabunPSK", "30", "bold"), fg = f"#000000", bg = f"#ccfff0", width = 65).grid(row=0,column=0,columnspan=4)
 
 # Student ID Input / Name Display
 student_name_display = Label(main, text = "รหัสนักเรียน 13 หลัก", font = ("TH SarabunPSK", "20", "bold"), width=20)
 student_name_display.grid(row=1,column=0)
-student_id_input = Entry(main, textvariable=student_id, width=25)
+student_id_input = Entry(main, textvariable=student_id, width=40)
 student_id_input.grid(row=1,column=1)
 student_id_input.focus()
 
