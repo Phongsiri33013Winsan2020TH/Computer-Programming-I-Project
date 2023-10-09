@@ -73,6 +73,8 @@ def score_edit():
     score = radio_score[score_index - 1][2]
     score_name = radio_score[score_index - 1][1]
     score = int(score)
+
+    # Correct ID continue do job
     if valid_id:
         if score_index == 0:
             student_name_display.config(text=f"กรุณาเลือกประเภทคะแนน")
@@ -80,11 +82,16 @@ def score_edit():
         try:
             with open("student.csv", "r", encoding="utf-8") as student_list:
                 read = csv.reader(student_list)
-                student_score_list = list(read)
+                student_score_list = list(read
+
+
+        # File not found, end
         except Exception:
             output_sum.config(text="ไม่พบไฟล์นักเรียน")
         none = True
         found = False
+
+        # Loop find student
         for student_score in student_score_list:
             if entry_id == student_score[1]:
                 current = student_score[3]
@@ -96,6 +103,8 @@ def score_edit():
                 output_sum.config(text=f"คะแนนที่เพิ่ม/หัก {score:d}")
                 output_latest.config(text=f"คะแนนคงเหลือ {done}")
                 break
+
+        # Write back in file
         if found:
             try:
                 with open("student.csv", "w", newline="", encoding="utf-8") as student_list_file:
@@ -107,6 +116,8 @@ def score_edit():
             with open("log.txt", "a", encoding="utf-8") as log:
                 log.write(
                     f"\nat {current} > {student_score[1]} {student_score[2]} has been add/deduct score {score_name} of {score}, score left of {done}")
+
+        # Incorrect Student ID
         if none:
             student_name_display.config(text=f"ไม่พบรหัสนักเรียนในระบบ")
     else:
