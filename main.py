@@ -82,8 +82,7 @@ def score_edit():
         try:
             with open("student.csv", "r", encoding="utf-8") as student_list:
                 read = csv.reader(student_list)
-                student_score_list = list(read
-
+                student_score_list = list(read)
 
         # File not found, end
         except Exception:
